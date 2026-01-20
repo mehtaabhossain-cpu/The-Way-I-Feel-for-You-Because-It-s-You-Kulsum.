@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For You, Always ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- SLIDER WRAPPER -->
+  <div class="slider-container">
+    <div class="slider" id="slider">
+
+      <!-- Slide 1 -->
+      <section class="slide">
+        <h1>For You, Always ❤️</h1>
+        <p>Kulsum, this world glows differently when you're in it.</p>
+        <button id="musicButton" onclick="toggleMusic()">Play 🎵</button>
+      </section>
+
+      <!-- ⭐ NEW BIRTHDAY SLIDE -->
+      <section class="slide">
+        <h2>Happy Birthday, My Moon 🌙🎂</h2>
+        <p>
+          Kulsum,<br><br>
+          Another year of your smile,<br>
+          another year of your light,<br>
+          another year where the world is blessed just because you exist.<br><br>
+          I hope this birthday brings you peace, softness, and everything your heart desires.<br><br>
+          And I promise — I’ll always be here<br>
+          celebrating you,<br>
+          cheering for you,<br>
+          and loving you in silence… and beyond. ❤️
+        </p>
+      </section>
+
+      <!-- Slide 2 -->
+      <section class="slide">
+        <h2>From My Heart 💌</h2>
+        <p>
+          Kulsum,<br><br>
+          You didn’t just enter my life — you changed the way my heart beats.<br><br>
+          Every scroll you take here… is a step deeper into what I truly feel for you.
+        </p>
+      </section>
+
+      <!-- Slide 3 -->
+      <section class="slide">
+        <h2>What I Feel But Never Say 🌙</h2>
+        <p>
+          I don’t always express everything perfectly,<br>
+          but every moment with you makes me feel safe, calm, and understood.<br><br>
+          Sometimes silence speaks the loudest — and in that silence, I always choose you.
+        </p>
+      </section>
+
+      <!-- Slide 4 -->
+      <section class="slide">
+        <h2>My Promises to You ✨</h2>
+
+        <div class="promise-buttons">
+          <button class="promiseBtn">I’ll always listen — even in silence.</button>
+          <button class="promiseBtn">I’ll stay, even when things are hard.</button>
+          <button class="promiseBtn">I’ll protect your heart like mine.</button>
+          <button class="promiseBtn">I’ll be your peace in a loud world.</button>
+           <button class="promiseBtn">I’ll stand by you, always.</button>
+       </div>
+     </section>
+
+
+      <!-- Slide 5 -->
+      <section class="slide">
+        <h2>If You Ever Doubt My Love… 💖</h2>
+        <p>
+          Remember this: you are the person I think of when the world gets heavy,<br>
+          the name my heart whispers on quiet nights.<br><br>
+          My love doesn’t shout — it stays. It holds. It chooses you.
+        </p>
+      </section>
+
+      <!-- Slide 6 -->
+      <section class="slide">
+        <h2>A Letter to You 🕊️</h2>
+        <p>
+          Dear Kulsum,<br><br>
+          I don’t know how long life is… but I know this —<br><br>
+          every version of me in every universe would still fall for you.<br><br>
+          — Mehtab ❤️
+        </p>
+      </section>
+
+      <!-- Slide 7 (Final Confession) -->
+      <section class="slide">
+        <h2>The Final Confession 🌙✨</h2>
+        <button onclick="revealSecret()" class="magicBtn">Click Here 💖</button>
+        <p id="secretText" class="hidden magicText">
+          Kulsum,<br><br>
+          What I feel for you is quiet… but deep.<br><br>
+          My heart already belongs to you.<br><br>
+          — Mehtab ❤️
+        </p>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button onclick="prevSlide()" id="prevBtn">⟨</button>
+    <button onclick="nextSlide()" id="nextBtn">⟩</button>
+  </div>
+
+  <footer>
+    <p>Made with love by Mehtab, only for Kulsum 💖</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
