@@ -60,6 +60,7 @@ body::after {
 h1, h2 {
   font-family: "Playfair Display", serif;
   margin-bottom: 15px;
+  font-size: 2.5rem;
 }
 
 h1 {
@@ -180,6 +181,7 @@ footer {
   padding: 20px;
   color: #c8b6e8;
 }
+
 
 
 
