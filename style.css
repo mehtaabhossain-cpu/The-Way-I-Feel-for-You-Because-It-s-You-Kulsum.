@@ -74,6 +74,10 @@ h2 {
   color: #ddb7ff;
 }
 
+p {
+  font-size: 1.5rem;
+}
+
 /* Buttons */
 button, .magicBtn {
   margin-top: 20px;
@@ -163,6 +167,7 @@ footer {
   padding: 20px;
   color: #c8b6e8;
 }
+
 
 
 
