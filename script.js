@@ -54,3 +54,21 @@ function revealSecret() {
 
 /* Initialize Button State */
 updateSlider();
+
+// Auto-glow for promise buttons
+const promiseBtns = document.querySelectorAll(".promiseBtn");
+let promiseIndex = 0;
+
+function autoGlowPromises() {
+  // Remove active class from all
+  promiseBtns.forEach(btn => btn.classList.remove("active"));
+
+  // Add active class to current button
+  promiseBtns[promiseIndex].classList.add("active");
+
+  // Move to next, loop back
+  promiseIndex = (promiseIndex + 1) % promiseBtns.length;
+}
+
+// Start glowing every 2 seconds
+setInterval(autoGlowPromises, 1000);
