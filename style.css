@@ -53,6 +53,7 @@ body::after {
   min-width: 100%;
   padding: 80px 20px;
   text-align: center;
+  overflow: scroll;
 }
 
 /* Headings */
@@ -162,6 +163,7 @@ footer {
   padding: 20px;
   color: #c8b6e8;
 }
+
 
 
 
