@@ -116,7 +116,19 @@ button, .magicBtn {
   box-shadow: 0 0 0px rgba(255, 150, 255, 0.2);
 }
 
-/* Magical Hover Glow */
+/* ACTIVE AUTO-GLOW EFFECT */
+ .promiseBtn.active {
+  background: linear-gradient(90deg, #e75ff6, #a86fff);
+  color: white;
+  transform: scale(1.1);
+  box-shadow:
+    0 0 12px rgba(255,150,255,0.8),
+    0 0 24px rgba(180,90,255,0.6),
+    inset 0 0 18px rgba(255,255,255,0.4);
+  transition: 0.6s ease;
+}
+
+/* Magical Hover Glow 
 .promiseBtn:hover {
   background: linear-gradient(90deg, #e75ff6, #a86fff);
   color: white;
@@ -126,6 +138,7 @@ button, .magicBtn {
     0 0 24px rgba(180, 90, 255, 0.6),
     inset 0 0 18px rgba(255, 255, 255, 0.4);
 }
+*/
 
 /* Controls */
 .controls {
@@ -167,6 +180,7 @@ footer {
   padding: 20px;
   color: #c8b6e8;
 }
+
 
 
 
