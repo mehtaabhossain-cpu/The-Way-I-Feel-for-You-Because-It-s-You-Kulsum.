@@ -177,11 +177,17 @@ button, .magicBtn {
   transform: scale(1);
 }
 
+// control button
+#prevBtn , #nextBtn {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
 footer {
   text-align: center;
   padding: 20px;
   color: #c8b6e8;
 }
+
 
 
 
